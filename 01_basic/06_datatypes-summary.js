@@ -1,14 +1,17 @@
 //  Primitive
 
-//  7 types : String, Number, Boolearn, null, undefined, Symbol, BigInt
+//  7 types : String, Number, Boolean, null, undefined, Symbol, BigInt
 
 
-// const score = 100
+// const score1 = 100
 // const scoreValue = 100.3
+// console.log(score1+"   "+scoreValue);
 
-// const isLoggedIn = false
-// const outsideTemp = null
-// let userEmail;
+const isLoggedIn = false
+const outsideTemp = null
+let userEmail;
+
+// console.log(isLoggedIn, outsideTemp, userEmail);
 
 const id = Symbol('123')
 const anotherId = Symbol('123')
@@ -18,19 +21,18 @@ const score=null;
 // console.log(id);
 
 
-console.log(id === anotherId);
+// console.log(id === anotherId);
 
-// // const bigNumber = 3456543576654356754n
+const bigNumber = 3456543576654356754n
 
+/* // console.log(bigNumber)
 
-
-// // Reference (Non primitive)
-
-// // Array, Objects, Functions
+// Reference (Non primitive)
+// Array, Objects, Functions
 
 // const heros = ["shaktiman", "naagraj", "doga"];
 // console.log(heros);
-
+ */
 // let arraycolor=["blue","red","black","white"];
 // console.log(arraycolor);
 
@@ -48,8 +50,7 @@ let empObj={
      empAddress:"sherghati",
 
 }
-// console.log(empObj);
-
+console.log(empObj);
 
 
 
@@ -57,7 +58,7 @@ const myFunction = function(){
     console.log("Hello world");
 }
 
-// console.log(datatypes-summary.myFunction);
+console.log(datatypes-summary.myFunction);
 
 console.log(typeof anotherId);
 

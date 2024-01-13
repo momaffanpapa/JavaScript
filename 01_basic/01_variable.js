@@ -4,6 +4,9 @@ var accountPassword = "12345"
 accountCity = "Jaipur"
 let accountState;
 
+// console.log("AccountId:- "+accountId+" AccountEmail:- "+accountEmail+ 
+// " AccountPAssword:- "+accountPassword+" AccountCity:- "+accountCity+" AccountState:- "+accountState)
+
 const empId=155666
 let empEmailId="employee@google.com"
 var empPassword="1234STR"
@@ -18,25 +21,28 @@ console.log(empPassword)
 
 // accountId = 2 // not allowed
 
+accountEmail = "hc@hc.com"
+accountPassword = "21212121"
+accountCity = "Bengaluru"
 
-// accountEmail = "hc@hc.com"
-// accountPassword = "21212121"
-// accountCity = "Bengaluru"
-
-// console.log(accountId);
+console.log(accountId, accountPassword, accountCity, accountEmail);
 
 /*
 Prefer not to use var
 because of issue in block scope and functional scope
 */
 
-let n1=22;
-let n2=21;
-let sum;
+// let n1=22;
+// let n2=21;
+// let sum;
 
-sum=n1+n2;
+function sum(n1,n2)
+{ 
+    return n1+n2;
+}
 
-console.log(sum)
+let res=sum(-2.5,2);
+console.log(res);
 
 
 
