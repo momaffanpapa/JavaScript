@@ -4,6 +4,9 @@ const repoCount = 50;
 const fName="anish";
 const lName="Abdullah";
 
+console.log(`my name is ${name} total repocount is ${repoCount} is this correct ..???`);
+
+
 // console.log(`Could you please enter your FirstName ${fName} and LastName ${lName}`);
 // console.log(name + repoCount + " Value");
 // console.log(fName+lName+" awesome ");
